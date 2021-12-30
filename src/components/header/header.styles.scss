@@ -1,0 +1,33 @@
+.work-station-container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.brand {
+    position: absolute;
+    top: 4px;
+    left: 16px;
+    background-color: #333;
+    color:lightgrey;
+    display:flex;
+    flex-direction:row
+  }
+  @media (max-width: 480px) {
+    .compact-solutions{
+        font-size: 14px;
+        padding:12px;
+    }
+    .brand{
+        padding:10px
+    }
+      
+}
+@media (min-width: 480px) {
+    .compact-solutions{
+        font-size: 20px;
+        padding:15px;
+    }
+    .brand{
+        padding:15px
+    }
+}

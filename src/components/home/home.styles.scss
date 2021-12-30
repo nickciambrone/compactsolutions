@@ -1,0 +1,35 @@
+
+  @media (min-width: 480px) {
+
+.home-content-container{
+    display: flex;
+    flex-direction: row;
+}
+.intro{
+    width:30%;
+    margin-left:2%;
+    text-align: left;
+}
+.project-area{
+  width:65%;
+  margin-left:2%;
+  text-align: left;
+}
+  }
+
+
+  @media (max-width: 480px) {
+
+    .home-content-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+      }
+  
+      .project-area{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin:8px 0;
+        padding: 15px 5px;
+
+      }
