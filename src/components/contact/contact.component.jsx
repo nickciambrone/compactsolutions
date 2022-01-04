@@ -14,13 +14,13 @@ const Contact = () => {
         action="https://public.herotofu.com/v1/959cd980-6999-11ec-b2d5-af79f33d926c"
         method="post"
       >
-        <div>
-          <input style={{padding:'14px 20px'}} name="Name" id="name" type="text" placeholder='Name'  required />
+      <div style={{marginBottom:'10px'}}>
+      <input style={{padding:'14px 20px'}} name="Name" id="name" type="text" placeholder='Name'  required />
         </div>
-        <div>
+        <div style={{marginBottom:'10px'}}>
           <input style={{padding:'14px 20px'}} name="Email" id="email" type="email" placeholder='Email' required />
         </div>
-        <div style={{marginBottom:'5px'}}>
+        <div style={{marginBottom:'10px'}}>
         <input style={{padding:'14px 20px 60px 20px', height:'90px'    }} name="Message" id="message" type="text" placeholder='Message' required />
       </div>
       <div style={{marginBottom:'25px'}}>
