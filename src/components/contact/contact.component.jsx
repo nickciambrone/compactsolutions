@@ -8,7 +8,7 @@ const Contact = () => {
     <div className="contact">
 
     <h3 style={{color:'#666', marginTop:'12px'}}>Contact Form</h3>
-    <div className = 'blue-line' style={{height:'2px', width:'30%', marginLeft:'35%', backgroundColor:'#0099ff', marginTop:'20px', marginBottom:'20px'}}></div>
+    <div className = 'blue-line' style={{height:'3px', width:'16%', marginLeft:'42%', backgroundColor:'#0099ff', marginTop:'20px', marginBottom:'20px'}}></div>
 
       <form
         action="https://public.herotofu.com/v1/959cd980-6999-11ec-b2d5-af79f33d926c"

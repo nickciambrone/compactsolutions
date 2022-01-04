@@ -21,7 +21,7 @@ const CarouselContainer = () =>{
               src={Fantasy}
               alt="First slide"
             />
-           <a href='https://crwn-bets.herokuapp.com/home'>Fantasy Football Royale</a> 
+           <a href='https://crwn-bets.herokuapp.com/home' target='_blank'>Fantasy Football Royale</a> 
           </Carousel.Item>
           <Carousel.Item style={{width:'80%', marginLeft:'10%', textAlign:'center'}}>
             <img 
@@ -29,7 +29,7 @@ const CarouselContainer = () =>{
               src={Faclaw}
               alt="Second slide"
             />
-              <a href='https://nickciambrone.github.io/ciambrone-law/'>Ciambrone Law</a>
+              <a href='https://nickciambrone.github.io/ciambrone-law/' target='_blank'>Ciambrone Law</a>
           </Carousel.Item>
           <Carousel.Item style={{width:'80%', marginLeft:'10%', textAlign:'center'}}>
             <img 
@@ -38,7 +38,7 @@ const CarouselContainer = () =>{
               alt="Third slide"
             />
     
-              <a href='https://www.meyerandassoc.com'>
+              <a href='https://www.meyerandassoc.com' target='_blank'>
                 meyerandassoc.com
                 </a>
           </Carousel.Item>

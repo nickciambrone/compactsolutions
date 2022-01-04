@@ -3,6 +3,25 @@
     text-align: center;
     color: white;
 }
+.react-parallax-background-children {
+    /* The image used */
+  
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+    width:100%;
+   
+    overflow: auto; /*This is what we added!*/
+
+}
+.react-parallax {
+    /* The image used */
+  
+    /* Set a specific height */
+    /* Create the parallax scrolling effect */
+   
+
+}
+
 .brand {
     position: absolute;
     top: 4px;
@@ -12,22 +31,41 @@
     display:flex;
     flex-direction:row
   }
+  .logo-container{
+    margin-left:3%
+
+  }
   @media (max-width: 480px) {
+      .logo{
+          width:70px;
+          height:70px;
+      }
+    .react-parallax{
+    }
     .compact-solutions{
-        font-size: 14px;
-        padding:12px;
+        font-size: 15px;
+        padding:15px 5px;
+        width:114px;
     }
     .brand{
-        padding:10px
+        padding:10px 0
     }
       
 }
+@media (min-width: 480px) and (max-width:767px) {
+    .react-parallax{
+    }
+}
+
+
 @media (min-width: 480px) {
+  
     .compact-solutions{
         font-size: 20px;
-        padding:15px;
+        padding:10px 10px;
+        width:135px;
     }
     .brand{
-        padding:15px
+        padding:10px 0
     }
 }
