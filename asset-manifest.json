@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/compactsolutions/static/css/main.0a25325f.css",
-    "main.js": "/compactsolutions/static/js/main.8acbdcd3.js",
+    "main.css": "/compactsolutions/static/css/main.7b0f3f19.css",
+    "main.js": "/compactsolutions/static/js/main.d10b9cba.js",
     "static/js/787.88ed334c.chunk.js": "/compactsolutions/static/js/787.88ed334c.chunk.js",
     "static/media/workstation.jpg": "/compactsolutions/static/media/workstation.f809b89f0f765a4af521.jpg",
+    "static/media/devices.jpg": "/compactsolutions/static/media/devices.939dfaaa5d67203ea026.jpg",
     "static/media/faclaw.png": "/compactsolutions/static/media/faclaw.3563b8ffef7baa53975b.png",
     "static/media/meyer.png": "/compactsolutions/static/media/meyer.aadbe9381efe6ac9a5c1.png",
+    "static/media/royal-cloth.png": "/compactsolutions/static/media/royal-cloth.23fc162b2f7c987ffe73.png",
     "static/media/fantasy.png": "/compactsolutions/static/media/fantasy.f6aad997ab73504cb1ff.png",
-    "static/media/logo.svg": "/compactsolutions/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.svg": "/compactsolutions/static/media/logo.c6cd6a3a1094087d8fc273b4815693f4.svg",
     "index.html": "/compactsolutions/index.html",
-    "static/media/ic_dns_24px.svg": "/compactsolutions/static/media/ic_dns_24px.b98710e93f6ab8ba43822b25e4f60f54.svg",
-    "main.0a25325f.css.map": "/compactsolutions/static/css/main.0a25325f.css.map",
-    "main.8acbdcd3.js.map": "/compactsolutions/static/js/main.8acbdcd3.js.map",
+    "main.7b0f3f19.css.map": "/compactsolutions/static/css/main.7b0f3f19.css.map",
+    "main.d10b9cba.js.map": "/compactsolutions/static/js/main.d10b9cba.js.map",
     "787.88ed334c.chunk.js.map": "/compactsolutions/static/js/787.88ed334c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a25325f.css",
-    "static/js/main.8acbdcd3.js"
+    "static/css/main.7b0f3f19.css",
+    "static/js/main.d10b9cba.js"
   ]
 }
