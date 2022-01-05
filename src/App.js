@@ -29,7 +29,7 @@ class App extends React.Component {
        this.state.activePage==='services' ?
        <Services /> :
        this.state.activePage==='about' ?
-       <About /> :
+       <About handleClick = {this.handleClick}/> :
        this.state.activePage==='contact' ?
        <Contact /> :
        <Home />

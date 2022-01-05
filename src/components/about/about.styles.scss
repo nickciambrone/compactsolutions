@@ -1,12 +1,142 @@
 @media (max-width: 480px) {
-  .about-cards {
-  }
+    .executive-team{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        .founder {
+            width: 100%;
+      
+            padding: 0 30px;
+      
+            img {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
+          .cofounder {
+            width: 100%;
+            padding: 0 30px;
+      
+            img {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
+      }
+  .black-screen{
+    background-color: rgba(0,0,0,0.5 );
+    padding:35px;
+    width:90%;
+    margin-left:5%;
+    p{
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    color: #fff;
+    text-align: left;
+
+    }
+}
 }
 @media (min-width: 480px) and (max-width: 767px) {
-  .about-cards {
+    .executive-team{
+        display: flex;
+        flex-direction: row;
+        width:80%;
+        margin-left:10%;
+        margin-top:20px;
+    }
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+        .message-from-founder-container {
+            width: 100%;
+            padding: 0 30px;
+      
+            .message-from-founder {
+              box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      
+              padding: 48px;
+              .tm-title-gray {
+                -webkit-tap-highlight-color: transparent;
+                --blue: #007bff;
+                --indigo: #6610f2;
+                --purple: #6f42c1;
+                --pink: #e83e8c;
+                --red: #dc3545;
+                --orange: #fd7e14;
+                --yellow: #ffc107;
+                --green: #28a745;
+                --teal: #20c997;
+                --cyan: #17a2b8;
+         
+                --font-family-sans-serif: -apple-system, BlinkMacSystemFont,
+                  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+                  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+                  "Noto Color Emoji";
+                --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+                  "Liberation Mono", "Courier New", monospace;
+                text-align: left;
+                font-family: "Open Sans", Arial, sans-serif;
+                box-sizing: border-box;
+                margin-top: 0;
+                font-weight: 500;
+                line-height: 1.2;
+                font-size: 1.75rem;
+                margin-bottom: 1rem !important;
+                color: #666;
+              }
+            }
+          }
+      
+          .founder {
+            width: 50%;
+      
+            padding: 0 30px;
+      
+            img {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
+          .cofounder {
+            width: 50%;
+            padding: 0 30px;
+      
+            img {
+              width: 100%;
+              margin-bottom: 30px;
+            }
+          }
   }
+  .black-screen{
+    background-color: rgba(0,0,0,0.5 );
+    padding:35px;
+    width:90%;
+    margin-left:2.5%;
+    p{
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    color: #fff;
+    text-align: left;
+
+    }
+}
+  
 }
 @media (min-width: 768px) {
+    .executive-team{
+        display: flex;
+        flex-direction: row;
+        width:66%
+
+    }
   .about-cards {
     display: flex;
     flex-direction: row;
@@ -53,7 +183,7 @@
     }
 
     .founder {
-      width: 33%;
+      width: 50%;
 
       padding: 0 30px;
 
@@ -63,7 +193,7 @@
       }
     }
     .cofounder {
-      width: 33%;
+      width: 50%;
       padding: 0 30px;
 
       img {
@@ -72,4 +202,40 @@
       }
     }
   }
+  .black-screen{
+    background-color: rgba(0,0,0,0.5 );
+    padding:35px;
+    width:45%;
+    margin-left:50%;
+    margin-top:30px;
+    p{
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    color: #fff;
+    text-align: left;
+
+    }
+}
+}
+.about-parallax{
+    background-image: url('./biz-oriented-footer-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    height: 450px;
+    width:100%;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    padding-top:25px;
+
+
+}
+
+
+.contact-us-button{
+    &:hover{
+        cursor:pointer;
+    }
 }
