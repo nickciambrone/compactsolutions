@@ -1,0 +1,75 @@
+@media (max-width: 480px) {
+  .about-cards {
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .about-cards {
+  }
+}
+@media (min-width: 768px) {
+  .about-cards {
+    display: flex;
+    flex-direction: row;
+    .message-from-founder-container {
+      width: 33%;
+      padding: 0 30px;
+
+      .message-from-founder {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+          rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+        padding: 48px;
+        .tm-title-gray {
+          -webkit-tap-highlight-color: transparent;
+          --blue: #007bff;
+          --indigo: #6610f2;
+          --purple: #6f42c1;
+          --pink: #e83e8c;
+          --red: #dc3545;
+          --orange: #fd7e14;
+          --yellow: #ffc107;
+          --green: #28a745;
+          --teal: #20c997;
+          --cyan: #17a2b8;
+   
+          --font-family-sans-serif: -apple-system, BlinkMacSystemFont,
+            "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+            "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+            "Noto Color Emoji";
+          --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+            "Liberation Mono", "Courier New", monospace;
+          text-align: left;
+          font-family: "Open Sans", Arial, sans-serif;
+          box-sizing: border-box;
+          margin-top: 0;
+          font-weight: 500;
+          line-height: 1.2;
+          font-size: 1.75rem;
+          margin-bottom: 1rem !important;
+          color: #666;
+        }
+      }
+    }
+
+    .founder {
+      width: 33%;
+
+      padding: 0 30px;
+
+      img {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .cofounder {
+      width: 33%;
+      padding: 0 30px;
+
+      img {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
