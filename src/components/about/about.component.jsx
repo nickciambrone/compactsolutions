@@ -25,8 +25,7 @@ const About = ({handleClick}) => {
                 fontSize: "18px",
               }}
             >
-              Donec convallis orci id scelerisque convallis. Suspendisse varius
-              sapien mauris. Proin accumsan.
+              My team and I will put together a prototype based on your specifications. After the initial build, you get to provide us with any additions/changes you'd like us to make.
             </p>
             <p
               style={{
@@ -36,8 +35,7 @@ const About = ({handleClick}) => {
                 fontSize: "18px",
               }}
             >
-              Quisque accumsan lorem sed bibendum vehicula. Aenean gravida, nunc
-              ac bibendum bibendum.
+              And of course, this is all backed by our 30 day money back guarantee
             </p>
           </div>
         </div>
@@ -65,8 +63,7 @@ const About = ({handleClick}) => {
               fontSize: "18px",
             }}
           >
-            Quisque lacinia arcu sit amet est sollicitudin, ut hendrerit augue
-            egestas. Donec accumsan justo sit amet orci interdum.
+          Nicholas started his career at a small Tech startup, where he built a new platform for the CEO to analyze user feedback. He then worked as a programmer for an insurance company before starting Compact Solutions
           </p>
         </div>
         <div className="cofounder">
@@ -92,8 +89,7 @@ const About = ({handleClick}) => {
               fontSize: "18px",
             }}
           >
-            Quisque lacinia arcu sit amet est sollicitudin, ut hendrerit augue
-            egestas. Donec accumsan justo sit amet orci interdum.
+           Michael comes from a career in Finance. He worked as a software engineer for Bank of America and United Bank of Switzerland before joining Compact Solutions
           </p>
         </div>
         </div>

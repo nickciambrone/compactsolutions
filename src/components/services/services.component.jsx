@@ -30,11 +30,7 @@ const Services = () => {
                   fontSize: "18px",
                 }}
               >
-                This is another HTML page for services in Business Oriented
-                Template. You are allowed to use this CSS template for your
-                business or personal website. You are NOT allowed to
-                re-distribute the template ZIP file on any template collection
-                website. Contact us for more information about this template.
+                Our small team of developers have over seven years of experience building full stack web applications for businesses. All of our sites come with advanced search engine optimization so that you stand out on Google Searches. We also run Google Ad campaigns in order to get your website off the ground.  
               </p>
               <p
                 style={{
@@ -44,10 +40,7 @@ const Services = () => {
                   fontSize: "18px",
                 }}
               >
-                Nulla eget ipsum nec augue semper convallis non a lacus. Integer
-                vel condimentum neque. Fusce sollicitudin arcu et tortor
-                lobortis rhoncus. Morbi accumsan efficitur nunc, in faucibus
-                velit pretium quis. Sed elementum auctor felis eu tristique.
+                At Compact Solutions, customer satisfaction is #1. If you are unhappy with our services we will give you your money back guaranteed. 
               </p>
             </div>
           </div>
@@ -55,7 +48,7 @@ const Services = () => {
           <div className="services-examples" style={{ marginTop: "42px" }}>
             <h3 style={{ color: "#666", marginBottom: "20px" }}>
               {" "}
-              Our Project Catalog
+              Sample Project
             </h3>
             <div
               className="blue-line"
@@ -92,77 +85,13 @@ const Services = () => {
                       fontSize: "18px",
                     }}
                   >
-                    Donec mauris eros, suscipit fermentum faucibus sagittis,
-                    dictum eget nulla. Duis maximus porttitor ornare. Maecenas
-                    blandit vestibulum massa at accumsan. Duis ultricies mi id
-                    justo porttitor, et sollicitudin justo vehicula.
+                    Our applications can handle credit card payment processing, as well as user sign up and login with classic forms or Social Media Accounts
                   </p>
+                  <a target='_blank' href ='https://royal-cloth.herokuapp.com/shop'>View Project</a>
                 </div>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  marginBottom: "5px",
-                }}
-              >
-                <div style={{ width: "40%", marginLeft: "2%" }}>
-                  <img
-                    width="100%"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg"
-                  />
-                </div>
-                <div style={{ width: "40%", marginLeft: "5%" }}>
-                  <h4 style={{ color: "#0099FF" }}>
-                    Maecenas molestie varius ipsum
-                  </h4>
-                  <p
-                    style={{
-                      color: "#666",
-                      marginBottom: "3rem!important",
-                      lineHeight: "1.9",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Donec mauris eros, suscipit fermentum faucibus sagittis,
-                    dictum eget nulla. Duis maximus porttitor ornare. Maecenas
-                    blandit vestibulum massa at accumsan. Duis ultricies mi id
-                    justo porttitor, et sollicitudin justo vehicula.
-                  </p>
-                </div>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  marginBottom: "5px",
-                }}
-              >
-                <div style={{ width: "40%", marginLeft: "2%" }}>
-                  <img
-                    width="100%"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg"
-                  />
-                </div>
-                <div style={{ width: "40%", marginLeft: "5%" }}>
-                  <h4 style={{ color: "#0099FF" }}>
-                    Maecenas molestie varius ipsum
-                  </h4>
-                  <p
-                    style={{
-                      color: "#666",
-                      marginBottom: "3rem!important",
-                      lineHeight: "1.9",
-                      fontSize: "18px",
-                    }}
-                  >
-                    Donec mauris eros, suscipit fermentum faucibus sagittis,
-                    dictum eget nulla. Duis maximus porttitor ornare. Maecenas
-                    blandit vestibulum massa at accumsan. Duis ultricies mi id
-                    justo porttitor, et sollicitudin justo vehicula.
-                  </p>
-                </div>
-              </div>
+             
+             
             </div>
           </div>
         </div>
@@ -179,24 +108,41 @@ const Services = () => {
             <div className="services-card-text" style={{ padding: "10%" }}>
               <h4 style={{ color: "#0099FF" }}>
                 {" "}
-                Fusce sollicitudin arcu et tortor{" "}
+                Our Premium Package Includes:{" "}
               </h4>
               <p>
                 {" "}
-                Cras rhoncus tempor consequat. Donec convallis orci id
-                scelerisque convallis. Suspendisse varius sapien mauris.
+                Custom website and mobile app with unlimited pages
               </p>
+              <p>
+              {" "}
+             User Sign up and Sign in with email and social media accounts
+            </p>
+              <p>
+              {" "}
+              E-Commerce Supported
+            </p>
 
               <p>
-                Quisque accumsan lorem sed bibendum vehicula. Aenean gravida,
-                nunc ac bibendum bibendum.
+                Top Speed Hosting
               </p>
 
               <p>
                 {" "}
-                Donec convallis orci id scelerisque convallis. Suspendisse
-                varius sapien mauris. Proin accumsan.
+                Security, Updates & Daily Backups
               </p>
+              <p>
+              {" "}
+              Custom Logo
+            </p>
+            <p>
+              {" "}
+             Domain Registration
+            </p>
+            <p>
+            {" "}
+           Monthly Performance Reports
+          </p>
             </div>
           </div>
         </div>
