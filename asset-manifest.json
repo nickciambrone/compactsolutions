@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/compactsolutions/static/css/main.b757d4f4.css",
-    "main.js": "/compactsolutions/static/js/main.665c32e4.js",
+    "main.js": "/compactsolutions/static/js/main.c2e9d938.js",
     "static/js/787.88ed334c.chunk.js": "/compactsolutions/static/js/787.88ed334c.chunk.js",
     "static/media/workstation.jpg": "/compactsolutions/static/media/workstation.f809b89f0f765a4af521.jpg",
     "static/media/devices.jpg": "/compactsolutions/static/media/devices.939dfaaa5d67203ea026.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/compactsolutions/static/media/logo.c6cd6a3a1094087d8fc273b4815693f4.svg",
     "index.html": "/compactsolutions/index.html",
     "main.b757d4f4.css.map": "/compactsolutions/static/css/main.b757d4f4.css.map",
-    "main.665c32e4.js.map": "/compactsolutions/static/js/main.665c32e4.js.map",
+    "main.c2e9d938.js.map": "/compactsolutions/static/js/main.c2e9d938.js.map",
     "787.88ed334c.chunk.js.map": "/compactsolutions/static/js/787.88ed334c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b757d4f4.css",
-    "static/js/main.665c32e4.js"
+    "static/js/main.c2e9d938.js"
   ]
 }
