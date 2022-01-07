@@ -60,20 +60,20 @@ const Services = () => {
             ></div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div
+              className ='e-commerce-project'
                 style={{
-                  display: "flex",
-                  flexDirection: "row",
+                
                   marginBottom: "5px",
                 }}
               >
-                <div style={{ width: "40%", marginLeft: "2%" }}>
+                <div className = 'royal-cloth-img-container'>
                   <img
                     width="100%"
                     style = {{boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'}}
                     src={royalCloth}
                   />
                 </div>
-                <div style={{ width: "40%", marginLeft: "5%" }}>
+                <div className= 'royal-cloth-description-container'>
                   <h4 style={{ color: "#0099FF" }}>
                     E-Commerce Store
                   </h4>
@@ -99,7 +99,6 @@ const Services = () => {
           <div
             className="services-card"
             style={{
-              width: "90%",
               backgroundColor: "#EDEEEF",
               textAlign: "left",
             }}

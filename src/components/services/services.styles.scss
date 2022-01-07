@@ -4,6 +4,9 @@
 // 1025px — 1200px: Desktops, large screens
 // 1201px and more —  Extra large screens, TV
 @media (max-width: 480px) {
+  .services-card{
+    width:100%
+  }
   .services-top {
     display: flex;
     flex-direction: column;
@@ -13,11 +16,30 @@
       margin: 0 2.5%;
   }
   .services-card-container {
-    width:95%;
-    margin: 0 2.5%;
+    width:84%;
+    margin: 0 8%;
+  }
+  .e-commerce-project{
+    display: flex;
+    flex-direction: column;
+  }
+  .royal-cloth-img-container{
+    width:80%;
+    margin-left:2%;
+
+  }
+  .royal-cloth-description-container{
+    width:80%;
+    margin-left:5%;
+    margin-top:5px;
+
   }
 }
+
 @media (min-width: 480px) and (max-width: 768px) {
+  .services-card{
+    width:90%
+  }
   .services-top {
     display: flex;
     flex-direction: row;
@@ -30,9 +52,26 @@
         margin: 0 2.5%;
     }
   }
+  .e-commerce-project{
+    display: flex;
+    flex-direction: column;
+  }
+  .royal-cloth-img-container{
+    width:80%;
+    margin-left:2%;
+
+  }
+  .royal-cloth-description-container{
+    width:80%;
+    margin-left:5%;
+
+  }
 }
 
 @media (min-width: 768px) {
+  .services-card{
+    width:90%
+  }
   .services-top {
     display: flex;
     flex-direction: row;
@@ -44,6 +83,20 @@
   .services-card-container {
     width:38%;
     margin: 0 1%;
+  }
+  .e-commerce-project{
+    display: flex;
+    flex-direction: row;
+  }
+  .royal-cloth-img-container{
+    width:40%;
+    margin-left:2%;
+
+  }
+  .royal-cloth-description-container{
+    width:40%;
+    margin-left:5%;
+
   }
 }
 .services-information {

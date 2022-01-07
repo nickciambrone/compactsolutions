@@ -2,6 +2,7 @@ import React from "react";
 
 import "./about.styles.scss";
 import Michael from "./about-02.jpg";
+import Nick from './IMG_5540 (1).png'
 const About = ({handleClick}) => {
   return (
     <div className="about">
@@ -41,7 +42,7 @@ const About = ({handleClick}) => {
         </div>
         <div className = 'executive-team'>
         <div className="founder">
-          <img src={Michael} />
+          <img src={Nick} />
           <h3
             className="nicholas-tag"
             style={{
