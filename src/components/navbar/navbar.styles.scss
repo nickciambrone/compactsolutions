@@ -6,10 +6,33 @@
 
 //Mobile
 @media (max-width: 480px) {
+    .nav-item {
+        border-top: 6px solid white;
+        border-bottom: 6px solid white;
+        font-size: 20px;
+        padding: 10px 5px;
+        margin:0 1px;
+    }
 }
 
 //Tablet
 @media (min-width: 481px) and (max-width:767px) {
+    .nav-item {
+        border-top: 6px solid white;
+        border-bottom: 6px solid white;
+        font-size: 20px;
+        padding: 10px 5px;
+        margin:0 1px;
+    }
+}
+@media (min-width: 768px) and (max-width:870px) {
+    .nav-item {
+        border-top: 6px solid white;
+        border-bottom: 6px solid white;
+        font-size: 15px;
+        padding: 10px 5px;
+        margin:0 1px;
+    }
 }
 
 //Computer
@@ -51,6 +74,8 @@
         color:white
     }
 }
+@media (min-width: 870px) {
+
 .nav-item {
     border-top: 6px solid white;
     border-bottom: 6px solid white;
@@ -60,5 +85,5 @@
 }
 
 
-
+}
 
