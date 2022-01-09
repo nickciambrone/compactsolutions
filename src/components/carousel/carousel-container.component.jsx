@@ -29,7 +29,7 @@ const CarouselContainer = () =>{
               src={Faclaw}
               alt="Second slide"
             />
-              <a href='https://nickciambrone.github.io/ciambrone-law/' target='_blank'>Ciambrone Law</a>
+              <a href='https://www.ciambronelawoffices.com' target='_blank'>Ciambrone Law</a>
           </Carousel.Item>
           <Carousel.Item style={{width:'80%', marginLeft:'10%', textAlign:'center'}}>
             <img 
